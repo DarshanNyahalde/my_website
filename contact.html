@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>संपर्क - पांढरे टूर्स & रिअल इस्टेट</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 data-translate="travels-logo">पांढरे टूर्स & ट्रॅव्हल्स</h1>
+            </div>
+            <nav>
+                <button class="nav-toggle" id="navToggle">&#9776;</button>
+                <ul>
+                    <li><a href="index.html" data-translate="home">Home</a></li>
+                    <li><a href="travels.html" data-translate="travels">Travel</a></li>
+                    <li><a href="realestate.html" data-translate="realestate">Real Estate</a></li>
+                    <li><a href="contact.html" data-translate="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+            <h2 data-translate="contact-title">संपर्क करा</h2>
+            <p data-translate="contact-subtitle">आमच्याशी संपर्क साधण्यासाठी खालील माहिती वापरा</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="info-item">
+                <h3 data-translate="contact-person1">Santosh Pandhare</h3>
+                <p><a href="tel:8308233861">8308233861</a> / <a href="tel:9700451001">9700451001</a></p>
+            </div>
+            <div class="info-item">
+                <h3 data-translate="contact-person2">Shivam Pandhare</h3>
+                <p><a href="tel:7058489688">7058489688</a></p>
+            </div>
+            <div class="info-item">
+                <h3 data-translate="contact-location">ठिकाण</h3>
+                <p data-translate="contact-address">बारामती, महाराष्ट्र, भारत</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.123456789012!2d74.123456789!3d18.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDA3JzI0LjQiTiA3NMKwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <h3 data-translate="send-message">संदेश पाठवा</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name" data-translate="name-label">नाव *</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone" data-translate="phone-label">फोन नंबर *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span class="error-message" id="phoneError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-translate="message-label">संदेश *</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <button type="submit" class="btn" data-translate="submit-btn">पाठवा</button>
+                <div id="successMessage" class="success-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <section class="whatsapp">
+        <div class="container">
+            <a href="https://wa.me/918308233861" class="btn whatsapp-btn" data-translate="whatsapp-contact">WhatsApp वर संपर्क करा</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pandhare Tours & Real Estate</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
